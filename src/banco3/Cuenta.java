@@ -29,6 +29,8 @@ public class Cuenta {
     float interesAnual;
     Movimiento [] movimientos;
     int nmovimientos;
+    int nOp=0;
+    
     
     public Cuenta(long aNumero, Cliente aTitular, float aInteresAnual) {    
         numero = aNumero;    
