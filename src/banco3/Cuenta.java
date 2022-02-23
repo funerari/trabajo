@@ -66,7 +66,7 @@ public class Cuenta {
         nOp++;
         
     }
-    boolean enRojos() { return saldo < 0; }    
+  /*  boolean enRojos() { return saldo < 0; }    
     float leerSaldo() { return saldo; } 
     static int nOp = 0;
     // Operación estática auxiliar de conversión   
@@ -97,7 +97,7 @@ public class Cuenta {
         salvar();
           
       }
-      /*jhdlshjsfghuorwehguoerwghuoghueghuegeu*/
+      
 
       public void salvar() throws FileNotFoundException, IOException{
           FileOutputStream fos = new FileOutputStream(numero + ".cnt");  
@@ -109,5 +109,5 @@ public class Cuenta {
           oos.writeInt(nmovimientos);
           oos.close(); 
       
-      }
+      }*/
 }
