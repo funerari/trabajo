@@ -96,6 +96,7 @@ public class Cuenta {
         salvar();
           
       }
+      /*jhdlshjsfghuorwehguoerwghuoghueghuegeu*/
 
       public void salvar() throws FileNotFoundException, IOException{
           FileOutputStream fos = new FileOutputStream(numero + ".cnt");  
