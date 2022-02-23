@@ -18,7 +18,8 @@ import java.util.LinkedList;
 
 /**
  *
- * @author César
+ * @author Abraham 
+ * 
  */
 public class Cuenta {
     
