@@ -29,7 +29,7 @@ public class Cuenta {
     float interesAnual;
     Movimiento [] movimientos;
     int nmovimientos;
-    int nOp=0;
+    static int nOp=0;
     
     
     public Cuenta(long aNumero, Cliente aTitular, float aInteresAnual) {    
@@ -68,9 +68,9 @@ public class Cuenta {
         nOp++;
         
     }
-  /*  boolean enRojos() { return saldo < 0; }    
+    boolean enRojos() { return saldo < 0; }    
     float leerSaldo() { return saldo; } 
-    static int nOp = 0;
+   
     // Operación estática auxiliar de conversión   
     static float eurosAPesetas(float euros) { return euros * 166.386f; }
     static int leerNOperaciones() { return nOp; } 
@@ -111,5 +111,5 @@ public class Cuenta {
           oos.writeInt(nmovimientos);
           oos.close(); 
       
-      }*/
+      }
 }

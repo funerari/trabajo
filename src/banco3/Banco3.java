@@ -5,6 +5,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Date;
+import javax.swing.JOptionPane;
 
 
 public class Banco3 {
@@ -54,7 +55,10 @@ public class Banco3 {
        
  
        
-        
+            JOptionPane.showMessageDialog(null,"ADIOS");
+            JOptionPane.showMessageDialog(null,"ADIOS");
+            JOptionPane.showMessageDialog(null,"ADIOS");
+            JOptionPane.showMessageDialog(null,"ADIOS");
         
         // Simulación de cajero
         
